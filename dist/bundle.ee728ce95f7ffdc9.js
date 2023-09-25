@@ -20696,7 +20696,7 @@
     Dl.position.set(2, 2, 2),
     ae.DefaultUp.set(0, 0, 1),
     Al.add(Dl),
-    Ll.load("B:/projects/responsive-logo-final/dist/models/logo/Obj/project-desk-4dc6d8fcea089283c968e0461330f846.obj", (function(t) {
+    Ll.load("https://alireza4791.github.io/3d-logo-final/dist/models/logo/Obj/project-desk-4dc6d8fcea089283c968e0461330f846.obj", (function(t) {
         Il = t,
         window.innerWidth <= 420 ? (Il.scale.x = .052,
         Il.scale.y = .052,
