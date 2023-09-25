@@ -20786,7 +20786,7 @@
         "18vh" === Sl.style.top ? (Sl.style.position = "relative",
         Sl.style.top = `calc(${Math.min(scrollY, 950)}px + 18vh)`,
         Sl.style.left = "0",
-        Tl.style.marginTop = "160vh") : (Sl.style.position = "fixed",
+        Tl.style.marginTop = "1400px") : (Sl.style.position = "fixed",
         Tl.style.marginTop = "400vh"))) : (Sl.style.transform = "scale(0.25, 0.25)",
         Sl.style.opacity = "0",
         Gl += .02 * (.02 * scrollY - Gl),
