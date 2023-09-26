@@ -1,7 +1,7 @@
 "use strict";
 
 window.addEventListener("load", () => {
-  const canvas = document.querySelector(".webgl");
+  const canvas = document.querySelector(".fluid-canvas");
 
   const params = {
     alpha: false,
