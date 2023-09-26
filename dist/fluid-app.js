@@ -371,7 +371,7 @@ window.addEventListener("load", () => {
 
     return (destination) => {
       gl.bindFramebuffer(gl.FRAMEBUFFER, destination);
-      gl.drawArrays(gl.TRIANGLES, 6, gl.UNSIGNED_SHORT, 0);
+      gl.drawElements(gl.TRIANGLES, 6, gl.UNSIGNED_SHORT, 0);
     };
   })();
 
