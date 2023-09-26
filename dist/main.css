@@ -17,6 +17,8 @@ body
     left: 0 !important;
     outline: none !important;
     z-index: -1 !important;
+    width: 100vw !important;
+    height: 100vh !important;
 }
 
 .filler {
