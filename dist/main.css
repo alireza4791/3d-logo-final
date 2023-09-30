@@ -1,38 +1,93 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    /* overflow: hidden; */
+body {
+  background-color: black;
 }
 
-.webgl
-{
-    /* position: fixed; */
-    /* top: 0;
+.webgl {
+  /* position: fixed; */
+  /* top: 0;
     left: 0; */
-    outline: none;
-    z-index: -1;
+  /* outline: none;
+    z-index: -1; */
 }
 
-/* .filler {
-    width: 100vw;
-    height: 100vh;
-    color: white;
-    transform: scale(0.25, 0.25);
-    opacity: 0;
-    position: fixed;
-    top: 18vh;
-    left: 0;
+.canvas-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.filler {
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.secondary {
+  color: white;
+  margin-top: 400vh;
+  position: relative;
+  z-index: 1;
+}
+
+.canvas-outer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.canvas-outer.beneath {
+  z-index: -3;
+}
+
+.canvas-outer canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+splash-bg {
+  display: block;
+}
+
+splash-bg,
+splash-bg canvas {
+  height: 100%;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  right: auto;
+  top: 0;
+  width: 100%;
+}
+
+/* .v-reset,
+.v-reset * {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  outline: none;
 } */
 
-/* .secondary {
-    color: white;
-    margin-top: 400vh;
-} */
+canvas {
+  display: inline-block;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 
 /*# sourceMappingURL=main.css.map*/
