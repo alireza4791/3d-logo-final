@@ -1,17 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  /* margin: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%; */
-  background-color: black;
-}
-
-.canvas-outer {
+.preloader-canvas-outer {
   position: fixed;
   top: 0;
   left: 0;
@@ -21,12 +8,12 @@ body {
   /* z-index: -1; */
 }
 
-.canvas-outer.beneath {
+.preloader-canvas-outer.beneath {
   /* z-index: -1; */
   /* z-index: -3; */
 }
 
-.canvas-outer canvas {
+.preloader-canvas-outer canvas {
   position: fixed;
   top: 0;
   left: 0;
