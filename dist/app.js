@@ -510,14 +510,14 @@ function pointerPrototype() {
 let pointers = [];
 pointers.push(new pointerPrototype());
 
-for (let i = 0; i < 10; i++) {
-  const color = [Math.random() * 10, Math.random() * 10, Math.random() * 10];
-  const x = canvas.width * Math.random();
-  const y = canvas.height * Math.random();
-  const dx = 1000 * (Math.random() - 0.5);
-  const dy = 1000 * (Math.random() - 0.5);
-  splat(x, y, dx, dy, color);
-}
+// for (let i = 0; i < 10; i++) {
+//   const color = [Math.random() * 10, Math.random() * 10, Math.random() * 10];
+//   const x = canvas.width * Math.random();
+//   const y = canvas.height * Math.random();
+//   const dx = 1000 * (Math.random() - 0.5);
+//   const dy = 1000 * (Math.random() - 0.5);
+//   splat(x, y, dx, dy, color);
+// }
 
 let lastTime = Date.now();
 Update();
