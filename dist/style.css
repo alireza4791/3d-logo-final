@@ -42,6 +42,7 @@ canvas {
   height: 30vw;
   position: relative;
   z-index: 105;
+  overflow: hidden;
 }
 
 .preloader-logo-dark-background {
