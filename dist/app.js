@@ -5,7 +5,7 @@ let preloaderLogoBlackBox = document.querySelector(".preloader-blackbox");
 preloaderLogoBlackBox.style.display = "none";
 
 // window.addEventListener("load", () => {
-const canvas = document.querySelector(".fluid-canvas");
+const canvas = document.querySelector(".preloader-fluid-canvas");
 
 const params = {
   alpha: false,
