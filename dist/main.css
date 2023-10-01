@@ -65,3 +65,12 @@ canvas {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
+@media screen and (max-width: 479px){
+  .about-section.about-one {
+    margin-top: 100vh !important;
+  }
+}
+
+
+/*# sourceMappingURL=main.css.map*/
