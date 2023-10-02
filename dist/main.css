@@ -7,21 +7,18 @@ html,
 body {
   background-color: black;
 } */
-
 /* .webgl { */
-  /* position: fixed; */
-  /* top: 0;
-    left: 0; */
-  /* outline: none;
-    z-index: -1; */
+/* position: fixed; */
+/* top: 0;
+  left: 0; */
+/* outline: none;
+  z-index: -1; */
 /* } */
-
 /* .canvas-container {
   position: relative;
   width: 100%;
   height: 100%;
 } */
-
 /* .filler {
   width: 100vw;
   height: 100vh;
@@ -36,41 +33,33 @@ body {
   position: relative;
   z-index: 1;
 } */
-
 .canvas-outer {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
-}
+  /* z-index: -1; */ }
 
 .canvas-outer.beneath {
   z-index: -1;
-  /* z-index: -3; */
-}
+  /* z-index: -3; */ }
 
 .canvas-outer canvas {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-}
-
+  height: 100%; }
 
 canvas {
   display: inline-block;
   overflow-clip-margin: content-box;
-  overflow: clip;
-}
+  overflow: clip; }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 479px) {
   .about-section.about-one {
-    margin-top: 100vh !important;
-  }
-}
-
-
+    margin-top: 100vh !important; } }
 /*# sourceMappingURL=main.css.map*/
+
+/*# sourceMappingURL=main.css.map */
