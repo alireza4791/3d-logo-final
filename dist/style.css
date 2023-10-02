@@ -67,15 +67,9 @@ canvas {
 }
 
 @media screen and (max-width: 600px){
-  .preloader-logo-dark-background {
-    background-color: black;
+  .preloader-logo-wrapper > .preloader-logo-box {
     width: 55vw;
     height: 55vw;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    opacity: 0.8;
-    transition: all 0.3s ease-in-out;
   }
   .preloader-logo-box > img {
     width: 55vw;
