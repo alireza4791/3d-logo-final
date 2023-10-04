@@ -1,6 +1,7 @@
 ("use strict");
 
 const canvas = document.querySelector(".splash-canvas");
+const canvasThree = document.querySelector("canvas.webgl");
 
 const params = {
   alpha: true,
@@ -668,7 +669,7 @@ function resizeCanvas() {
   }
 }
 
-canvas.addEventListener("mousemove", (e) => {
+canvasThree.addEventListener("mousemove", (e) => {
   pointers[0].moved = pointers[0].down;
   pointers[0].dx = (e.offsetX - pointers[0].x) * 10.0;
   pointers[0].dy = (e.offsetY - pointers[0].y) * 10.0;
@@ -676,7 +677,7 @@ canvas.addEventListener("mousemove", (e) => {
   pointers[0].y = e.offsetY;
 });
 
-canvas.addEventListener("touchmove", (e) => {
+canvasThree.addEventListener("touchmove", (e) => {
   // e.preventDefault();
   for (let i = 0; i < e.touches.length; i++) {
     if (i >= pointers.length) {
@@ -691,8 +692,8 @@ canvas.addEventListener("touchmove", (e) => {
   }
 });
 
-canvas.addEventListener("mouseover", onPointerDown);
-canvas.addEventListener("touchstart", onPointerDown);
+canvasThree.addEventListener("mouseover", onPointerDown);
+canvasThree.addEventListener("touchstart", onPointerDown);
 window.addEventListener("mouseup", onPointerUp);
 window.addEventListener("touchend", onPointerUp);
 
