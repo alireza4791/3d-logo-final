@@ -60,7 +60,7 @@ canvas {
 .div-block-20 > .div-block-22 > h2,
 .div-block-20 > .div-block-22 > h3 {
   opacity: 0;
-  transform: translate3d(500px, 0px, 0px);
+  right: -500px;
   transition: 0.8s all ease-in; }
 
 .div-block-20 > .div-block-21 > a > img {
