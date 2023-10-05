@@ -65,7 +65,14 @@ canvas {
 
 .div-block-20 > .div-block-21 {
   transition: 0.8s all ease-in; }
+@media screen and (max-width: 768px){
+.div-block-20 > .div-block-22 > h2,
+.div-block-20 > .div-block-22 > h3 {
+  transition: 0.2s all ease-in; }
 
+.div-block-20 > .div-block-21 {
+  transition: 0.2s all ease-in; }
+}
 /*# sourceMappingURL=main.css.map*/
 /*# sourceMappingURL=main.css.map */
 
