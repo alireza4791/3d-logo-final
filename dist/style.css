@@ -2,10 +2,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100wv;
+  max-width: 100vw;
   height: 100%;
   z-index: 100;
   /* z-index: -1; */ }
+.preloader-canvas-outer > div {
+  width: 100vw;
+  max-width: 100vw;
+}
 
 .preloader-canvas-outer.beneath {
   /* z-index: -1; */
@@ -15,7 +20,8 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   height: 100%; }
 
 canvas {
@@ -55,7 +61,8 @@ canvas {
   height: 30vw; }
 
 .preloader-container {
-  width: 100%;
+  width: 100vw;
+  max-width: 100vw;
   height: 100%; }
 
 @media screen and (max-width: 600px) {
