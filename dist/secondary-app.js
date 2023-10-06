@@ -2,6 +2,7 @@
 
 const canvas = document.querySelector(".splash-canvas");
 const canvasThree = document.querySelector("canvas.webgl");
+let bodyTagVar = document.querySelector('body');
 
 const params = {
   alpha: true,
@@ -624,7 +625,7 @@ function splat(x, y, dx, dy, color) {
     splatProgram.uniforms.aspectRatio,
     TEXTURE_WIDTH / TEXTURE_HEIGHT
   );
-  if (window.innerWidth < 500) {
+  if (window.innerWidth <= 768) {
     gl.uniform2f(
       splatProgram.uniforms.point,
       x / canvas.width,
@@ -669,15 +670,15 @@ function resizeCanvas() {
   }
 }
 
-canvasThree.addEventListener("mousemove", (e) => {
+bodyTagVar.addEventListener("mousemove", (e) => {
   pointers[0].moved = pointers[0].down;
-  pointers[0].dx = (e.offsetX - pointers[0].x) * 10.0;
-  pointers[0].dy = (e.offsetY - pointers[0].y) * 10.0;
-  pointers[0].x = e.offsetX;
-  pointers[0].y = e.offsetY;
+  pointers[0].dx = (e.clientX - pointers[0].x) * 10.0;
+  pointers[0].dy = (e.clientY - pointers[0].y) * 10.0;
+  pointers[0].x = e.clientX;
+  pointers[0].y = e.clientY;
 });
 
-canvasThree.addEventListener("touchmove", (e) => {
+bodyTagVar.addEventListener("touchmove", (e) => {
   // e.preventDefault();
   for (let i = 0; i < e.touches.length; i++) {
     if (i >= pointers.length) {
@@ -692,8 +693,8 @@ canvasThree.addEventListener("touchmove", (e) => {
   }
 });
 
-canvasThree.addEventListener("mouseover", onPointerDown);
-canvasThree.addEventListener("touchstart", onPointerDown);
+bodyTagVar.addEventListener("mouseover", onPointerDown);
+bodyTagVar.addEventListener("touchstart", onPointerDown);
 window.addEventListener("mouseup", onPointerUp);
 window.addEventListener("touchend", onPointerUp);
 
