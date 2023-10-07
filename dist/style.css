@@ -34,7 +34,7 @@ canvas {
   left: 0; */ }
 
 .preloader-logo-wrapper > .preloader-logo-box {
-  width: 30vw;
+  width: 50vw;
   height: 30vw;
   position: relative;
   z-index: 105;
@@ -42,7 +42,7 @@ canvas {
 
 .preloader-logo-dark-background {
   background-color: black;
-  width: 30vw;
+  width: 50vw;
   height: 30vw;
   position: absolute;
   bottom: 0;
@@ -51,7 +51,7 @@ canvas {
   transition: all 0.3s ease-in-out; }
 
 .preloader-logo-box > img {
-  width: 30vw;
+  width: 50vw;
   height: 30vw; }
 
 .preloader-container {
@@ -64,15 +64,15 @@ canvas {
 
 @media screen and (max-width: 600px) {
   .preloader-logo-wrapper > .preloader-logo-box {
-    width: 55vw;
+    width: 75vw;
     height: 55vw; }
 
   .preloader-logo-box > img {
-    width: 55vw;
+    width: 75vw;
     height: 55vw; }
 
   .preloader-logo-dark-background {
-    width: 55vw;
+    width: 75vw;
     height: 55vw; } }
 
 /*# sourceMappingURL=style.css.map */
