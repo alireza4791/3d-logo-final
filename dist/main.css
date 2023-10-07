@@ -61,12 +61,12 @@ canvas {
 .div-block-20 > .div-block-22 > h3 {
   opacity: 0;
   right: -500px;
-  transition: 0.8s all ease-in; }
+  transition: 0.5s all ease-in; }
 
 .div-block-20 > .div-block-21 {
   left: -100px;
   bottom: 100px;
-  transition: 0.8s all ease-in; }
+  transition: 0.5s all ease-in; }
 @media screen and (max-width: 768px){
 .div-block-20 > .div-block-22 > h2,
 .div-block-20 > .div-block-22 > h3 {
