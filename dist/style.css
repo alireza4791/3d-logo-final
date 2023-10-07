@@ -64,15 +64,15 @@ canvas {
 
 @media screen and (max-width: 600px) {
   .preloader-logo-wrapper > .preloader-logo-box {
-    width: 75vw;
-    height: 55vw; }
+    width: 80vw;
+    height: 60vw; }
 
   .preloader-logo-box > img {
-    width: 75vw;
-    height: 55vw; }
+    width: 80vw;
+    height: 60vw; }
 
   .preloader-logo-dark-background {
-    width: 75vw;
-    height: 55vw; } }
+    width: 80vw;
+    height: 60vw; } }
 
 /*# sourceMappingURL=style.css.map */
