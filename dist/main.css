@@ -70,10 +70,14 @@ canvas {
 @media screen and (max-width: 768px){
 .div-block-20 > .div-block-22 > h2,
 .div-block-20 > .div-block-22 > h3 {
+  opacity: 1;
+  right: 4vw;
   transition: 0.5s all ease-in; }
 
 .div-block-20 > .div-block-21 {
-  opacity: 0;
+  left: 0px;
+  bottom: 0px;
+  opacity: 1;
   transition: 0.5s all ease-in; }
 }
 /*# sourceMappingURL=main.css.map*/
