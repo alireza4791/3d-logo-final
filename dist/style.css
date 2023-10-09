@@ -34,16 +34,16 @@ canvas {
   left: 0; */ }
 
 .preloader-logo-wrapper > .preloader-logo-box {
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
   position: relative;
   z-index: 105;
   overflow: hidden; }
 
 .preloader-logo-dark-background {
   background-color: black;
-  width: 30vw;
-  height: 30vw;
+  width: 40vw;
+  height: 40vw;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -51,8 +51,8 @@ canvas {
   transition: all 0.3s ease-in-out; }
 
 .preloader-logo-box > img {
-  width: 30vw;
-  height: 30vw; }
+  width: 40vw;
+  height: 40vw; }
 
 .preloader-container {
   width: 100%;
@@ -64,15 +64,15 @@ canvas {
 
 @media screen and (max-width: 600px) {
   .preloader-logo-wrapper > .preloader-logo-box {
-    width: 60vw;
-    height: 60vw; }
+    width: 65vw;
+    height: 65vw; }
 
   .preloader-logo-box > img {
-    width: 60vw;
-    height: 60vw; }
+    width: 65vw;
+    height: 65vw; }
 
   .preloader-logo-dark-background {
-    width: 60vw;
-    height: 60vw; } }
+    width: 65vw;
+    height: 65vw; } }
 
 /*# sourceMappingURL=style.css.map */
