@@ -35,7 +35,7 @@ canvas {
 
 .preloader-logo-wrapper > .preloader-logo-box {
   width: 40vw;
-  height: 40vw;
+  height: 40vh;
   position: relative;
   z-index: 105;
   overflow: hidden; }
@@ -43,7 +43,7 @@ canvas {
 .preloader-logo-dark-background {
   background-color: black;
   width: 40vw;
-  height: 40vw;
+  height: 40vh;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -52,7 +52,7 @@ canvas {
 
 .preloader-logo-box > img {
   width: 40vw;
-  height: 40vw; }
+  height: 40vh; }
 
 .preloader-container {
   width: 100%;
