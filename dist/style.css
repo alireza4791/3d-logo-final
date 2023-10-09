@@ -34,16 +34,16 @@ canvas {
   left: 0; */ }
 
 .preloader-logo-wrapper > .preloader-logo-box {
-  width: 32vw;
-  height: 32vw;
+  width: 28vw;
+  height: 28vw;
   position: relative;
   z-index: 105;
   overflow: hidden; }
 
 .preloader-logo-dark-background {
   background-color: black;
-  width: 32vw;
-  height: 32vw;
+  width: 28vw;
+  height: 28vw;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -51,8 +51,8 @@ canvas {
   transition: all 0.3s ease-in-out; }
 
 .preloader-logo-box > img {
-  width: 32vw;
-  height: 32vw; }
+  width: 28vw;
+  height: 28vw; }
 
 .preloader-container {
   width: 100%;
